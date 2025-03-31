@@ -77,7 +77,6 @@ WHERE rank_over_trans = 1;
 
 ## Q8: How many transaction occur in each shift across branches?
 
-
 WITH cte AS(
 SELECT branch,
 payment_method,
